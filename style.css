@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Share+Tech+Mono&display=swap');
+
+*{
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 50px 1fr 1fr;
+    grid-template-rows: 50px 1fr 0.2fr;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.grid-container div {
+    padding: 10px;
+    border: 2px solid #F0ECE1;
+}
+.logo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navtitle {
+    grid-row-end: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-text {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    font-weight: bolder;
+}
+
+.nav-text {
+    color: rgb(149, 149, 149);
+    transform: rotate(270deg);
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+  
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 2rem 1rem;
+}
+
+.nav ul li a{
+    color: rgb(220, 220, 0);
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+.about-text {
+    color: grey;
+    letter-spacing: 0.1rem;
+}
+
+
