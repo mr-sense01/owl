@@ -24,7 +24,7 @@ body {
 }
 .grid-container div {
     padding: 10px;
-    border: 2px solid #F0ECE1;
+    border: 2px solid #FFF;
 }
 .logo {
     grid-column-start: 1;
@@ -74,7 +74,7 @@ body {
     color: white;
     font-size: 2rem;
     letter-spacing: 1rem;
-    font-weight: bolder;
+
 }
 
 .nav-text {
@@ -96,7 +96,7 @@ body {
 .nav ul li a{
     color: rgb(220, 220, 0);
     letter-spacing: 0.2rem;
-    font-weight: bold;
+  
 }
 .about-text {
     color: grey;
